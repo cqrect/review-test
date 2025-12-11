@@ -11,6 +11,10 @@ summary: |
 
 # 排除文件模式
 exclude:
-  - '**/test/**'
+  - '**/tests/**'
   - 'vendor/**'
   - '**/*.md'
+  - '**/.*'
+  - '**/public/**'
+  - '**/static/**'
+  - '**/config/**'
